@@ -17,36 +17,26 @@
   }
 
   const planFeatures: PlanFeatureRow[] = [
+   
+
     {
-      name: "Section 1",
-      header: true,
-    },
-    {
-      name: "Feature 1",
+      name: "Integration with E-commerce Platforms",
       freeIncluded: true,
       proIncluded: true,
     },
     {
-      name: "Feature 2",
+      name: "Custom Recipe Creation",
+      freeString: "5",
+      proString: "Unlimited",
+    },
+   
+    {
+      name: "Custom Branding and Styling",
       freeIncluded: false,
       proIncluded: true,
     },
     {
-      name: "Feature 3",
-      freeString: "3",
-      proString: "Unlimited",
-    },
-    {
-      name: "Section 2",
-      header: true,
-    },
-    {
-      name: "Feature 4",
-      freeIncluded: true,
-      proIncluded: true,
-    },
-    {
-      name: "Feature 5",
+      name: "Analytics and Insights",
       freeIncluded: false,
       proIncluded: true,
     },
@@ -110,52 +100,54 @@
     <div class="collapse collapse-arrow join-item border border-primary">
       <input type="radio" name="faq-accordion" />
       <div class="collapse-title text-lg font-medium">
-        Is this template free to use?
+        Is your recipe creation tool free to use?
       </div>
       <div class="collapse-content">
-        <p>Yup! This template is free to use for any project.</p>
+        <p>Yes, our recipe creation tool is completely free to use for all users.</p>
       </div>
     </div>
     <div class="collapse collapse-arrow join-item border border-primary">
       <input type="radio" name="faq-accordion" />
       <div class="collapse-title text-lg font-medium">
-        Why does a free template have a pricing page?
+        How do I create a recipe with your tool?
       </div>
       <div class="collapse-content">
         <p>
-          The pricing page is part of the boilerplate. It shows how the pricing
-          page integrates into the billing portal and the Stripe Checkout flows.
+          Creating a recipe with our tool is simple. You can add ingredients, instructions,
+          images, and tags to your recipe. Once you're done, you can save and publish your
+          recipe for others to view and use.
         </p>
       </div>
     </div>
     <div class="collapse collapse-arrow join-item border border-primary">
       <input type="radio" name="faq-accordion" />
       <div class="collapse-title text-lg font-medium">
-        What license is the template under?
+        How can I embed a link or button on my website to access your service?
       </div>
       <div class="collapse-content">
-        <p>The template is under the MIT license.</p>
+        <p>
+          To embed a link or button on your website to access our service, simply copy
+          the provided embed code from your account dashboard and paste it into your website's
+          HTML code. This will allow your visitors to easily access our recipe creation
+          and delivery service directly from your website.
+        </p>
       </div>
     </div>
     <div class="collapse collapse-arrow join-item border border-primary">
       <input type="radio" name="faq-accordion" />
       <div class="collapse-title text-lg font-medium">
-        Can I try out purchase flows without real a credit card?
+        What are the terms of use for your recipe creation and delivery service?
       </div>
       <div class="collapse-content">
         <p>
-          Our demo page <a href="https://saasstarter.work" class="link"
-            >SaasStarter.work</a
-          > has a functional demo page, using Stripe's test environment.
-        </p>
-        <p class="mt-4">
-          You can use the credit card number 4242 4242 4242 4242 with any future
-          expiry date to test the payment and upgrade flows.
+          The terms of use for our recipe creation and delivery service can be found in
+          our terms and conditions page on our website.
         </p>
       </div>
     </div>
   </div>
 </div>
+
 
 <svg style="display:none" version="2.0">
   <defs>
